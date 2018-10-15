@@ -1,0 +1,569 @@
+Microsoft Windows [Version 10.0.17134.345]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\sharm>node -v
+v8.12.0
+
+C:\Users\sharm>node
+> var a = 1;
+undefined
+> a
+1
+> window
+ReferenceError: window is not defined
+> global.a
+1
+> process
+process {
+  title: 'Command Prompt - node',
+  version: 'v8.12.0',
+  moduleLoadList:
+   [ 'Binding contextify',
+     'Binding natives',
+     'Binding config',
+     'NativeModule events',
+     'Binding async_wrap',
+     'Binding icu',
+     'NativeModule util',
+     'NativeModule internal/errors',
+     'Binding uv',
+     'NativeModule internal/encoding',
+     'NativeModule internal/util',
+     'Binding util',
+     'Binding constants',
+     'NativeModule internal/util/types',
+     'Binding buffer',
+     'NativeModule buffer',
+     'NativeModule internal/buffer',
+     'NativeModule internal/process',
+     'NativeModule internal/process/warning',
+     'NativeModule internal/process/next_tick',
+     'NativeModule internal/async_hooks',
+     'NativeModule internal/process/promises',
+     'NativeModule internal/process/stdio',
+     'Binding performance',
+     'NativeModule perf_hooks',
+     'NativeModule internal/linkedlist',
+     'NativeModule internal/trace_events_async_hooks',
+     'Binding trace_events',
+     'NativeModule async_hooks',
+     'NativeModule internal/inspector_async_hook',
+     'Binding inspector',
+     'NativeModule timers',
+     'Binding timer_wrap',
+     'NativeModule assert',
+     'NativeModule module',
+     'NativeModule internal/module',
+     'NativeModule internal/url',
+     'NativeModule internal/querystring',
+     'NativeModule querystring',
+     'Binding url',
+     'NativeModule vm',
+     'NativeModule fs',
+     'NativeModule path',
+     'Binding fs',
+     'NativeModule stream',
+     'NativeModule internal/streams/legacy',
+     'NativeModule _stream_readable',
+     'NativeModule internal/streams/BufferList',
+     'NativeModule internal/streams/destroy',
+     'NativeModule _stream_writable',
+     'NativeModule _stream_duplex',
+     'NativeModule _stream_transform',
+     'NativeModule _stream_passthrough',
+     'Binding fs_event_wrap',
+     'NativeModule internal/fs',
+     'NativeModule internal/loader/Loader',
+     'NativeModule internal/loader/ModuleWrap',
+     'Internal Binding module_wrap',
+     'NativeModule internal/loader/ModuleMap',
+     'NativeModule internal/loader/ModuleJob',
+     'NativeModule internal/safe_globals',
+     'NativeModule internal/loader/ModuleRequest',
+     'NativeModule url',
+     'NativeModule internal/loader/search',
+     'NativeModule console',
+     'Binding tty_wrap',
+     'NativeModule tty',
+     'NativeModule net',
+     'NativeModule internal/net',
+     'Binding cares_wrap',
+     'Binding tcp_wrap',
+     'Binding pipe_wrap',
+     'Binding stream_wrap',
+     'NativeModule dns',
+     'NativeModule readline',
+     'NativeModule string_decoder',
+     'NativeModule internal/readline',
+     'Binding signal_wrap',
+     'NativeModule internal/repl',
+     'NativeModule repl',
+     'NativeModule domain',
+     'NativeModule os',
+     'NativeModule internal/os',
+     'Binding os' ],
+  versions:
+   { http_parser: '2.8.0',
+     node: '8.12.0',
+     v8: '6.2.414.66',
+     uv: '1.19.2',
+     zlib: '1.2.11',
+     ares: '1.10.1-DEV',
+     modules: '57',
+     nghttp2: '1.32.0',
+     napi: '3',
+     openssl: '1.0.2p',
+     icu: '60.1',
+     unicode: '10.0',
+     cldr: '32.0',
+     tz: '2017c' },
+  arch: 'x64',
+  platform: 'win32',
+  release:
+   { name: 'node',
+     lts: 'Carbon',
+     sourceUrl: 'https://nodejs.org/download/release/v8.12.0/node-v8.12.0.tar.gz',
+     headersUrl: 'https://nodejs.org/download/release/v8.12.0/node-v8.12.0-headers.tar.gz',
+     libUrl: 'https://nodejs.org/download/release/v8.12.0/win-x64/node.lib' },
+  argv: [ 'C:\\Program Files\\nodejs\\node.exe' ],
+  execArgv: [],
+  env:
+   { ALLUSERSPROFILE: 'C:\\ProgramData',
+     APPDATA: 'C:\\Users\\sharm\\AppData\\Roaming',
+     CommonProgramFiles: 'C:\\Program Files\\Common Files',
+     'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files',
+     CommonProgramW6432: 'C:\\Program Files\\Common Files',
+     COMPUTERNAME: 'DESKTOP-0M7RBU6',
+     ComSpec: 'C:\\WINDOWS\\system32\\cmd.exe',
+     DriverData: 'C:\\Windows\\System32\\Drivers\\DriverData',
+     HOMEDRIVE: 'C:',
+     HOMEPATH: '\\Users\\sharm',
+     LOCALAPPDATA: 'C:\\Users\\sharm\\AppData\\Local',
+     LOGONSERVER: '\\\\DESKTOP-0M7RBU6',
+     NUMBER_OF_PROCESSORS: '8',
+     OneDrive: 'C:\\Users\\sharm\\OneDrive',
+     OS: 'Windows_NT',
+     Path: 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\Python36-32\\Scripts\\;C:\\Program Files (x86)\\Python36-32\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs\\;C:\\Users\\sharm\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sharm\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\sharm\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sharm\\AppData\\Roaming\\npm',
+     PATHEXT: '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+     PROCESSOR_ARCHITECTURE: 'AMD64',
+     PROCESSOR_IDENTIFIER: 'Intel64 Family 6 Model 142 Stepping 10, GenuineIntel',
+     PROCESSOR_LEVEL: '6',
+     PROCESSOR_REVISION: '8e0a',
+     ProgramData: 'C:\\ProgramData',
+     ProgramFiles: 'C:\\Program Files',
+     'ProgramFiles(x86)': 'C:\\Program Files (x86)',
+     ProgramW6432: 'C:\\Program Files',
+     PROMPT: '$P$G',
+     PSModulePath: 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',
+     PUBLIC: 'C:\\Users\\Public',
+     SESSIONNAME: 'Console',
+     SystemDrive: 'C:',
+     SystemRoot: 'C:\\WINDOWS',
+     TEMP: 'C:\\Users\\sharm\\AppData\\Local\\Temp',
+     TMP: 'C:\\Users\\sharm\\AppData\\Local\\Temp',
+     USERDOMAIN: 'DESKTOP-0M7RBU6',
+     USERDOMAIN_ROAMINGPROFILE: 'DESKTOP-0M7RBU6',
+     USERNAME: 'sharm',
+     USERPROFILE: 'C:\\Users\\sharm',
+     windir: 'C:\\WINDOWS' },
+  pid: 28568,
+  features:
+   { debug: false,
+     uv: true,
+     ipv6: true,
+     tls_npn: true,
+     tls_alpn: true,
+     tls_sni: true,
+     tls_ocsp: true,
+     tls: true },
+  ppid: 26648,
+  execPath: 'C:\\Program Files\\nodejs\\node.exe',
+  debugPort: 9229,
+  _startProfilerIdleNotifier: [Function: _startProfilerIdleNotifier],
+  _stopProfilerIdleNotifier: [Function: _stopProfilerIdleNotifier],
+  _debugProcess: [Function: _debugProcess],
+  _debugPause: [Function: _debugPause],
+  _debugEnd: [Function: _debugEnd],
+  _getActiveRequests: [Function: _getActiveRequests],
+  _getActiveHandles: [Function: _getActiveHandles],
+  _kill: [Function: _kill],
+  _linkedBinding: [Function: _linkedBinding],
+  binding: [Function: binding],
+  dlopen: [Function: dlopen],
+  abort: [Function: abort],
+  chdir: [Function: chdir],
+  cwd: [Function: cwd],
+  reallyExit: [Function: reallyExit],
+  umask: [Function: umask],
+  uptime: [Function: uptime],
+  _events:
+   { newListener: [Function],
+     removeListener: [Function],
+     warning: [Function],
+     SIGWINCH: [ [Function], [Function] ] },
+  _eventsCount: 4,
+  domain: [Getter/Setter],
+  _maxListeners: undefined,
+  _fatalException: [Function],
+  _exiting: false,
+  assert: [Function],
+  config:
+   { target_defaults:
+      { cflags: [],
+        default_configuration: 'Release',
+        defines: [],
+        include_dirs: [],
+        libraries: [] },
+     variables:
+      { asan: 0,
+        coverage: false,
+        debug_devtools: 'node',
+        debug_http2: false,
+        debug_nghttp2: false,
+        force_dynamic_crt: 0,
+        host_arch: 'x64',
+        icu_data_file: 'icudt60l.dat',
+        icu_data_in: '..\\..\\deps/icu-small\\source/data/in\\icudt60l.dat',
+        icu_endianness: 'l',
+        icu_gyp_path: 'tools/icu/icu-generic.gyp',
+        icu_locales: 'en,root',
+        icu_path: 'deps/icu-small',
+        icu_small: true,
+        icu_ver_major: '60',
+        node_byteorder: 'little',
+        node_enable_d8: false,
+        node_enable_v8_vtunejit: false,
+        node_install_npm: true,
+        node_module_version: 57,
+        node_no_browser_globals: false,
+        node_prefix: '/usr/local',
+        node_release_urlbase: 'https://nodejs.org/download/release/',
+        node_shared: false,
+        node_shared_cares: false,
+        node_shared_http_parser: false,
+        node_shared_libuv: false,
+        node_shared_nghttp2: false,
+        node_shared_openssl: false,
+        node_shared_zlib: false,
+        node_tag: '',
+        node_target_type: 'executable',
+        node_use_bundled_v8: true,
+        node_use_dtrace: false,
+        node_use_etw: true,
+        node_use_lttng: false,
+        node_use_openssl: true,
+        node_use_perfctr: true,
+        node_use_v8_platform: true,
+        node_without_node_options: false,
+        openssl_fips: '',
+        openssl_no_asm: 0,
+        shlib_suffix: 'so.57',
+        target_arch: 'x64',
+        v8_enable_gdbjit: 0,
+        v8_enable_i18n_support: 1,
+        v8_enable_inspector: 1,
+        v8_no_strict_aliasing: 1,
+        v8_optimized_debug: 0,
+        v8_promise_internal_field_count: 1,
+        v8_random_seed: 0,
+        v8_trace_maps: 0,
+        v8_use_snapshot: true,
+        want_separate_host_toolset: 0 } },
+  emitWarning: [Function],
+  nextTick: [Function: nextTick],
+  _tickCallback: [Function: _tickDomainCallback],
+  _tickDomainCallback: [Function: _tickDomainCallback],
+  stdout: [Getter],
+  stderr: [Getter],
+  stdin: [Getter],
+  openStdin: [Function],
+  hrtime: [Function: hrtime],
+  cpuUsage: [Function: cpuUsage],
+  memoryUsage: [Function: memoryUsage],
+  exit: [Function],
+  kill: [Function],
+  _rawDebug: [Function],
+  _immediateCallback: [Function: processImmediate],
+  argv0: 'node' }
+>
+(To exit, press ^C again or type .exit)
+>
+
+C:\Users\sharm>node module1
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Users\sharm\module1'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+
+C:\Users\sharm>node module1.js
+module.js:550
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Users\sharm\module1.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+
+C:\Users\sharm>cd ..
+
+C:\Users>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users>cd sharm
+
+C:\Users\sharm>node module1.js
+[Function]
+
+C:\Users\sharm>node module1.js
+[Function]
+
+C:\Users\sharm>node module1.js
+[Function]
+
+C:\Users\sharm>node module1.js
+{ a: 1 }
+
+C:\Users\sharm>node module1.js
+{ a: 1 }
+
+C:\Users\sharm>node module1.js
+{ a: 1, b: 2 }
+
+C:\Users\sharm>npm install underscore
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\sharm\package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\sharm\package.json'
+npm WARN sharm No description
+npm WARN sharm No repository field.
+npm WARN sharm No README data
+npm WARN sharm No license field.
+
++ underscore@1.9.1
+added 1 package from 1 contributor and audited 1 package in 1.994s
+found 0 vulnerabilities
+
+
+C:\Users\sharm>node module1.js
+{ a: 1, b: 2 }
+
+C:\Users\sharm>node module1.js
+{ [Function: _]
+  _: [Circular],
+  VERSION: '1.9.1',
+  iteratee: [Function: builtinIteratee],
+  forEach: [Function],
+  each: [Function],
+  collect: [Function],
+  map: [Function],
+  inject: [Function],
+  foldl: [Function],
+  reduce: [Function],
+  foldr: [Function],
+  reduceRight: [Function],
+  detect: [Function],
+  find: [Function],
+  select: [Function],
+  filter: [Function],
+  reject: [Function],
+  all: [Function],
+  every: [Function],
+  any: [Function],
+  some: [Function],
+  include: [Function],
+  includes: [Function],
+  contains: [Function],
+  invoke: [Function],
+  pluck: [Function],
+  where: [Function],
+  findWhere: [Function],
+  max: [Function],
+  min: [Function],
+  shuffle: [Function],
+  sample: [Function],
+  sortBy: [Function],
+  groupBy: [Function],
+  indexBy: [Function],
+  countBy: [Function],
+  toArray: [Function],
+  size: [Function],
+  partition: [Function],
+  take: [Function],
+  head: [Function],
+  first: [Function],
+  initial: [Function],
+  last: [Function],
+  drop: [Function],
+  tail: [Function],
+  rest: [Function],
+  compact: [Function],
+  flatten: [Function],
+  without: [Function],
+  unique: [Function],
+  uniq: [Function],
+  union: [Function],
+  intersection: [Function],
+  difference: [Function],
+  unzip: [Function],
+  zip: [Function],
+  object: [Function],
+  findIndex: [Function],
+  findLastIndex: [Function],
+  sortedIndex: [Function],
+  indexOf: [Function],
+  lastIndexOf: [Function],
+  range: [Function],
+  chunk: [Function],
+  bind: [Function],
+  partial: { [Function] placeholder: [Circular] },
+  bindAll: [Function],
+  memoize: [Function],
+  delay: [Function],
+  defer: [Function: bound],
+  throttle: [Function],
+  debounce: [Function],
+  wrap: [Function],
+  negate: [Function],
+  compose: [Function],
+  after: [Function],
+  before: [Function],
+  once: [Function: bound],
+  restArguments: [Function: restArguments],
+  keys: [Function],
+  allKeys: [Function],
+  values: [Function],
+  mapObject: [Function],
+  pairs: [Function],
+  invert: [Function],
+  methods: [Function],
+  functions: [Function],
+  extend: [Function],
+  assign: [Function],
+  extendOwn: [Function],
+  findKey: [Function],
+  pick: [Function],
+  omit: [Function],
+  defaults: [Function],
+  create: [Function],
+  clone: [Function],
+  tap: [Function],
+  isMatch: [Function],
+  isEqual: [Function],
+  isEmpty: [Function],
+  isElement: [Function],
+  isArray: [Function: isArray],
+  isObject: [Function],
+  isArguments: [Function],
+  isFunction: [Function],
+  isString: [Function],
+  isNumber: [Function],
+  isDate: [Function],
+  isRegExp: [Function],
+  isError: [Function],
+  isSymbol: [Function],
+  isMap: [Function],
+  isWeakMap: [Function],
+  isSet: [Function],
+  isWeakSet: [Function],
+  isFinite: [Function],
+  isNaN: [Function],
+  isBoolean: [Function],
+  isNull: [Function],
+  isUndefined: [Function],
+  has: [Function],
+  noConflict: [Function],
+  identity: [Function],
+  constant: [Function],
+  noop: [Function],
+  property: [Function],
+  propertyOf: [Function],
+  matches: [Function],
+  matcher: [Function],
+  times: [Function],
+  random: [Function],
+  now: [Function: now],
+  escape: [Function],
+  unescape: [Function],
+  result: [Function],
+  uniqueId: [Function],
+  templateSettings:
+   { evaluate: /<%([\s\S]+?)%>/g,
+     interpolate: /<%=([\s\S]+?)%>/g,
+     escape: /<%-([\s\S]+?)%>/g },
+  template: [Function],
+  chain: [Function],
+  mixin: [Function] }
+
+C:\Users\sharm>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (sharm)
+version: (1.0.0)
+description:
+entry point: (module1.js)
+test command:
+git repository: (https://github.com/AdityaSharma1999/BlackBox.git)
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\sharm\package.json:
+
+{
+  "name": "sharm",
+  "version": "1.0.0",
+  "description": "\"# BlackBox\"",
+  "main": "module1.js",
+  "dependencies": {
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdityaSharma1999/BlackBox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdityaSharma1999/BlackBox/issues"
+  },
+  "homepage": "https://github.com/AdityaSharma1999/BlackBox#readme"
+}
+
+
+Is this OK? (yes)
+
+C:\Users\sharm>npm install backbone
++ backbone@1.3.3
+added 1 package from 1 contributor and audited 3 packages in 1.203s
+found 0 vulnerabilities
+
+
+C:\Users\sharm>npm install backbone -S
++ backbone@1.3.3
+updated 1 package and audited 3 packages in 0.927s
+found 0 vulnerabilities
+
+
+C:\Users\sharm>node module1.js
+^C
+C:\Users\sharm>c
