@@ -1,7 +1,12 @@
+var cars = ["Ford", "Toyota", "Volkswagen"];
+
 var appRouter = function (app) {
-  app.get("/", function(req, res) {
-    res.status(200).send("Welcome to the restful API");
+	app.get("/index", function(req, res) {
+    res.render('pages/index');
   });
+  // app.get("/", function(req, res) {
+  //   res.render('pages/index');
+  // });
 }
 
 module.exports = appRouter;
