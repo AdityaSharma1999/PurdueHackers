@@ -11,9 +11,9 @@ routes(app);
 var server = app.listen(3000, function () {
     console.log("Testing: The app is running on port.", server.address().port);
 });
-// app.get("/index", function(req, res) {
-//     res.render('pages/index');
-//   });
+app.get("/index", function(req, res) {
+    res.render('pages/index');
+  });
 
 
 // routes.route('/products/:product_id').put(function (req, res) {

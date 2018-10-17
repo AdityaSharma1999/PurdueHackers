@@ -1,12 +1,13 @@
-var cars = ["Ford", "Toyota", "Volkswagen"];
+var drinks = [
+        { name: 'Bloody Mary', drunkness: 3 },
+        { name: 'Martini', drunkness: 5 },
+        { name: 'Scotch', drunkness: 10 }
+    ];
 
 var appRouter = function (app) {
-	app.get("/index", function(req, res) {
-    res.render('pages/index');
-  });
-  // app.get("/", function(req, res) {
-  //   res.render('pages/index');
-  // });
+
+	
+  
 }
 
 module.exports = appRouter;
