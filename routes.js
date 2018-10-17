@@ -1,7 +1,7 @@
-var drinks = [
-        { name: 'Bloody Mary', drunkness: 3 },
-        { name: 'Martini', drunkness: 5 },
-        { name: 'Scotch', drunkness: 10 }
+var cars = [
+        { name: 'Ford Mustang GT', Horsepower: 460 },
+        { name: 'Chevrolet Camaro 2SS', Horsepower: 455 },
+        { name: 'Dodge Challenger R/T Scat Pack', Horsepower: 485 }
     ];
 
 var appRouter = function (app) {
